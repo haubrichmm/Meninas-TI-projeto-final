@@ -44,12 +44,12 @@ section.banner {
     background-attachment: fixed;
 }
 section.banner .conteudo {
-    background-color: rgb(22, 78, 52);
+    background-color: rgb(115 53 26 / 80%);
     padding: 12px;}
 
 section.banner .botao {
      margin: 12px;
-    background-color: rgb(31, 119, 78);
+    background-color: rgb(115 53 26 / 80%);
     padding: 16px;
      border-radius: 12px;
      cursor: pointer;
@@ -84,7 +84,7 @@ section.banner .botao {
         gap: 24px;
     }
 
-    section.produtos img {width: 300px;height: 600px;}
+    section.produtos img {height: 600px;}
 
     section.jumbotron {
         width: 100%;
