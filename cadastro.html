@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tela de cadastro </title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg,rgba(128,0,0), rgba(255,0,0));
+            }
+
+        div{
+
+                background-color: white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                padding: 70px;
+                border-radius: 300px;
+            }
+        .menu{
+                background-color: #F20000;
+                width: 84%;
+                padding: 8px 5%;
+                float: left;
+                border-radius: 300px;
+            }
+
+            .menu li{
+                float: left;
+                
+            }
+
+            .menu li a{
+                color: black;
+                margin-right: 30px;
+                padding: px;
+                border-radius: 6px;
+
+            }
+            a{ 
+                text-decoration: none;
+                
+                
+
+            }
+            .menu li a:hover{
+                color: rgb(110,52,0);
+                background-color: #fb2e01;
+                padding: 8px;
+                border-radius: 300px;
+            }
+
+            .menu img{
+                float: ;
+                width: 300px;
+                margin-left: ;
+            }
+
+            input{
+                padding: 15px; 
+                font-size: 15px;
+                outline: none;
+                border-radius: 50px;
+            }
+             button{
+                padding: 15px;
+                width: 5%;
+                font-size: 14;
+                border-radius: 300px;
+            }
+            button:hover{
+                background-color: rgb(204,51,0);
+                color: blanchedalmond;
+                cursor: pointer;
+                
+            }
+            select{
+                padding: 15px;
+                font-size: 15px;
+                outline: ;
+                border-radius: 300px;
+
+            }
+            
+            
+
+        </style>
+
+    </head>
+        <body align="center">
+
+            <nav class="menu">
+                <li> <a href="index.html"> Bem-Vindo </a></li>
+
+            <form>
+                
+                <div class="formulario">
+                    <img src="img/Gate Bajo disco.jpg">
+                    <label> <h2>Preencha o cadastro!</h2></label><br><br>
+                    
+
+                <label form="nome"> Nome* </label>&nbsp;&nbsp;
+                <input type="text" placeholder="Digite seu Nome" size="20%" required><br><br>
+                <label form="nome"> Endereço* </label>&nbsp;&nbsp;
+                <input type="text" placeholder="Digite seu Endereço"> <br><br>
+                <label form="nome"> Cidade* </label> 
+                <select>
+                    <option>...Selecione...</option>
+                    <option> Campo Bom </option>
+                    <option> Estância Velha </option>
+                    <option> Ivoti </option>
+                    <option> Novo Hamburgo </option>
+                    <option> São Leopoldo </option>
+                    <option> Sapiranga </option>
+                    <option> Sapucaia do Sul </option>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+
+                
+                <label form="nome"> Telefone* </label>
+                <input type="text" placeholder="Telefone" required><br><br>
+                <label form="nome"> E-mail* </label>
+                <input type="text" placeholder="E-mail" required><br><br>
+                
+                <input type="submit" value="Cadastrar"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Limpar">
+            
+            </form>
+        </div>    
+    </body>
+    </html>

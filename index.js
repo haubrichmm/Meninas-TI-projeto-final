@@ -134,7 +134,7 @@ var lista = [1,2,3,4,5,6,7,8,9];
 recebeArray(lista); */
 
 //declaração de viaveis//
-const hedear = document.createElement("header");
+/* const hedear = document.createElement("header");
 const content = document.createElement("main");
 const footer = document.createElement("footer");
 
@@ -183,6 +183,6 @@ for (let i = 0; i < 10; i++) {
         <h3>Linha ${i + 1}<h3>
         <p>este é o conteudo da linha ${i + 1}.</p>
     `;
-}
+} */
 
 
