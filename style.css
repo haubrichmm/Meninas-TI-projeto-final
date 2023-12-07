@@ -78,7 +78,7 @@ section.banner .botao {
         width: 100%;
     }
     section.produtoscordas {
-        width: 97%;
+        width: 100%;
         margin: 50px;
         align-items: center;
         justify-content: center;
@@ -255,7 +255,7 @@ section.banner .botao {
 
 
       section.produtosmetais {
-        width: 92%;
+        width: 100%;
         margin: 34px;
         align-items: center;
         justify-content: center;
@@ -270,7 +270,39 @@ section.banner .botao {
         margin: 9%;
     }
 
-    .menu  li a, section{
+    .menu ul li a, section{
         font-family: 'Ribeye', serif;
     }
+
+    header.header ul li a i {
+        font-size: 51px;
+    }
+
+    section#sobre p {
+        font-family: sans-serif;
+    }
+
+    section.produtosmadeiras {
+        width: 93%;
+        margin: 52px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+    }
+
+    section.produtosmadeiras img {height: 379px;}
+
+    section.produtosmadeiras2 {
+        width: 90%;
+        margin: 52px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+    }
+
+    section.produtosmadeiras2 img {height: 379px;}
 
