@@ -7,6 +7,8 @@ header {
     min-height: 64px;
     justify-content: space-around;
     border-bottom: 1px solid #0e0e0e;
+    background-color: #660000;
+    
 }
 
 .menu nav ul, .social ul {
@@ -58,7 +60,7 @@ section.banner .botao {
 
     section.sobre {
         width: 100%;
-        margin: 12px;
+        margin: 30px;
         display: flex;
         flex-direction: row;
     }
@@ -75,17 +77,18 @@ section.banner .botao {
     section.sobre .imagem img {
         width: 100%;
     }
-    section.produtos {
-        width: 100%;
-        margin: 12px;
+    section.produtoscordas {
+        width: 97%;
+        margin: 50px;
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: row;
-        gap: 24px;
+        gap: 39px;
     }
 
-    section.produtos img {height: 600px;}
+    section.produtoscordas img {height: 600px;}
+
 
     section.jumbotron {
         width: 100%;
@@ -129,7 +132,7 @@ section.banner .botao {
     
     section.jumbotron div.banner-pequeno p, section.formulario p {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 57px;
     }
     
     section.jumbotron div.banner-pequeno button, 
@@ -250,4 +253,24 @@ section.banner .botao {
       @-webkit-keyframes slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}
 
 
+
+      section.produtosmetais {
+        width: 92%;
+        margin: 34px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    section.produtosmetais img {height: 250px;}
+
+    section.formulario {
+        margin: 9%;
+    }
+
+    .menu  li a, section{
+        font-family: 'Ribeye', serif;
+    }
 
